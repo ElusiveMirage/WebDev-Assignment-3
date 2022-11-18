@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/WebDev-Assignment-2/static/css/main.1eb42703.css",
+    "main.js": "/WebDev-Assignment-2/static/js/main.e5c58096.js",
+    "static/media/doggo.png": "/WebDev-Assignment-2/static/media/doggo.e672acfccbde9593026b.png",
+    "index.html": "/WebDev-Assignment-2/index.html",
+    "main.1eb42703.css.map": "/WebDev-Assignment-2/static/css/main.1eb42703.css.map",
+    "main.e5c58096.js.map": "/WebDev-Assignment-2/static/js/main.e5c58096.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1eb42703.css",
+    "static/js/main.e5c58096.js"
+  ]
+}
