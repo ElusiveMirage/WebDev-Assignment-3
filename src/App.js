@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 import './App.css';
 
@@ -7,6 +7,7 @@ import Home from './components/Home';
 import About from './components/About'
 import Navbar from './components/Navbar';
 import Products from './components/Products';
+import ShowPets from './components/ShowPets';
 
 
 
@@ -22,6 +23,8 @@ const App = () => (
         <Route path="/" exact element={ <Home />} />
         <Route path="/Products" exact element={ <Products />} />
         <Route path="/About"  element ={ <About />} />
+        <Route path="/About"  element ={ <ShowPets />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       </div>
   </Router>

@@ -1,26 +1,11 @@
 import React from 'react';
-import { SpriteAnimator } from 'react-sprite-animator';
-import dog from '../doggo.png';
 
-const ShowDog = ({ data, loading }) => {
+const ShowPets = ({ data, loading }) => {
     
     const render = ( data, loading ) => {
 
         if (loading === true ) return (
             <div className='loader-container'>
-                <SpriteAnimator
-                    sprite={dog}
-                    width={35}
-                    height={24}
-                    startFrame={1}
-                    frameCount={8}
-                    fps={12}
-                    scale={0.5}
-                    direction={'horizontal'}
-                    shouldAnimate={true}
-                    wrapAfter={8}
-                    className={"dog-sprite"}
-                />
                 <div className='dot-container'>
                     <div className='dots'></div>
                 </div>
@@ -62,4 +47,5 @@ const ShowDog = ({ data, loading }) => {
     )
 }
 
-export default ShowDog
+export default ShowPets
+
