@@ -17,7 +17,6 @@
     "react-paginate": "^8.1.4",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
-    "react-sprite-animator": "^2.0.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

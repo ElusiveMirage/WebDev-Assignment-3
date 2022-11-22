@@ -1,5 +1,4 @@
 import React from 'react';
-import { SpriteAnimator } from 'react-sprite-animator';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css';
@@ -14,7 +13,6 @@ import Products from './components/Products';
 const App = () => (
   <Router>
 
-      <SpriteAnimator />
       <Navbar className='menuitem' />
 
       <div className='container'>
