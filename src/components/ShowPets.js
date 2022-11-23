@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
+import db from '../firebase';
+import { collection, doc, setDoc } from "firebase/firestore";
 
-const ShowPets = ({ data, loading }) => {
-    
-    const render = ( data, loading ) => {
+const ShowPets = () => {
+    const [loading, setLoading] = useState(false);
+    const render = () => {
 
-        if (loading === true ) return (
+        /* if (loading === true ) return (
             <div className='loader-container'>
                 <div className='dot-container'>
                     <div className='dots'></div>
@@ -28,7 +30,7 @@ const ShowPets = ({ data, loading }) => {
           )
      )
 
-     ) 
+     )  */
     }
 
 
@@ -37,7 +39,7 @@ const ShowPets = ({ data, loading }) => {
         <div>
             <div  className='showlist'>
             
-            {   render( data, loading )  } 
+            {   render  } 
   
             </div>
 
