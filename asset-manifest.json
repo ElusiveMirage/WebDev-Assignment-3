@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/WebDev-Assignment-3/static/css/main.605436ef.css",
-    "main.js": "/WebDev-Assignment-3/static/js/main.57d37417.js",
+    "main.css": "/WebDev-Assignment-3/static/css/main.9665be59.css",
+    "main.js": "/WebDev-Assignment-3/static/js/main.42f05dc6.js",
     "static/media/connection.jpg": "/WebDev-Assignment-3/static/media/connection.b2ff8b29a1a693f6a426.jpg",
-    "static/media/mobot3.jpg": "/WebDev-Assignment-3/static/media/mobot3.44788fa7356d01b30958.jpg",
     "index.html": "/WebDev-Assignment-3/index.html",
-    "main.605436ef.css.map": "/WebDev-Assignment-3/static/css/main.605436ef.css.map",
-    "main.57d37417.js.map": "/WebDev-Assignment-3/static/js/main.57d37417.js.map"
+    "main.9665be59.css.map": "/WebDev-Assignment-3/static/css/main.9665be59.css.map",
+    "main.42f05dc6.js.map": "/WebDev-Assignment-3/static/js/main.42f05dc6.js.map"
   },
   "entrypoints": [
-    "static/css/main.605436ef.css",
-    "static/js/main.57d37417.js"
+    "static/css/main.9665be59.css",
+    "static/js/main.42f05dc6.js"
   ]
 }
