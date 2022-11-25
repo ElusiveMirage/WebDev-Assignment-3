@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/WebDev-Assignment-3/static/css/main.9665be59.css",
-    "main.js": "/WebDev-Assignment-3/static/js/main.42f05dc6.js",
+    "main.css": "/WebDev-Assignment-3/static/css/main.e270b45e.css",
+    "main.js": "/WebDev-Assignment-3/static/js/main.0b251e63.js",
+    "static/media/cat_waving.png": "/WebDev-Assignment-3/static/media/cat_waving.2890c8f929ee600f4550.png",
+    "static/media/cats_peeking.png": "/WebDev-Assignment-3/static/media/cats_peeking.12d72cc4dd03d1c92698.png",
     "static/media/connection.jpg": "/WebDev-Assignment-3/static/media/connection.b2ff8b29a1a693f6a426.jpg",
     "index.html": "/WebDev-Assignment-3/index.html",
-    "main.9665be59.css.map": "/WebDev-Assignment-3/static/css/main.9665be59.css.map",
-    "main.42f05dc6.js.map": "/WebDev-Assignment-3/static/js/main.42f05dc6.js.map"
+    "main.e270b45e.css.map": "/WebDev-Assignment-3/static/css/main.e270b45e.css.map",
+    "main.0b251e63.js.map": "/WebDev-Assignment-3/static/js/main.0b251e63.js.map"
   },
   "entrypoints": [
-    "static/css/main.9665be59.css",
-    "static/js/main.42f05dc6.js"
+    "static/css/main.e270b45e.css",
+    "static/js/main.0b251e63.js"
   ]
 }
