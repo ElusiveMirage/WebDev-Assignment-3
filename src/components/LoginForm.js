@@ -28,9 +28,10 @@ const LoginForm = () => {
               .then((response) => {
                 toast.success('Login Successfully !')
                 sessionStorage.setItem('Auth Token', response._tokenResponse.refreshToken)
+                console.log(response.user)
                 setTimeout(() => {
                     navigate('/')
-                    navigate(0)
+                    console.log(response.user)
                   }, 2000);
               })
               .catch(error => {   

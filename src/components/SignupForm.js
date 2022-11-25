@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import {useNavigate} from 'react-router-dom';
 import { app } from '../firebase';
+import { db } from '../firebase';
+import { doc, setDoc } from 'firebase/firestore';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth'
@@ -8,6 +10,8 @@ import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth'
 const SignupForm = () => {
 
     const [email, setEmail] = useState('');
+    const [name, setName] = useState('');
+    const [number, setNumber] = useState('');
     const [password, setPassword] = useState('');    
 
     const showPassword = () => {
@@ -23,13 +27,28 @@ const SignupForm = () => {
     const handleSignupSubmit = (event) => {
         // Prevent page reload
         event.preventDefault();
+        
+        const date = new Date();
+  
         const authentication = getAuth();
         createUserWithEmailAndPassword(authentication, email, password)
         .then((response) => {
+            if (response && response.user)
+            {
+                const data = {
+                    Name: name,
+                    Email: email,
+                    Phone: number,
+                    DateRegistered: date.getDate().toString() + "/" + date.getMonth().toString() + "/" + date.getFullYear().toString()
+                  };
+                  console.log(data);      
+
+                setDoc(doc(db, "Users", response.user.uid,), data);
+            }  
             toast.success('Registration Success!')
                 setTimeout(() => {
                     navigate('/')
-                    navigate(0)
+                    navigate(0) 
                   }, 2000);
         })
         .catch(error => {   
@@ -75,11 +94,22 @@ const SignupForm = () => {
               <input type="password" name="password" id="password" onChange={(e) => setPassword(e.target.value)} required /> 
             </div>
 
+            <div className="input-group">
+              <label>Full Name</label>
+              <input type="text" name="fullname" id="fullname" onChange={(e) => setName(e.target.value)} required /> 
+            </div>
+
+            <div className="input-group">
+              <label>Phone Number</label>
+              <input type="number" name="phone" id="phone" onChange={(e) => setNumber(e.target.value)} required /> 
+            </div>
+
             <div>
               <label>Show Password</label>
               <input type="checkbox" className="checkbox" onClick={showPassword} />
+              <p>By creating an account you agree to our <a href='#/' style={{color: "blue", textDecoration: "underline"}}>Terms & Privacy</a></p>
             </div>
-
+            
             <div>
                 <button type="submit" className="signup-submit-button">Confirm Registration</button>
             </div>        

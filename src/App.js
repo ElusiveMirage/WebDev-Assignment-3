@@ -16,8 +16,7 @@ const App = () => (
   <Router>
 
       <Navbar className='menuitem' />
-      <div className='background-block-1'>
-      </div>
+
       <div className='container'>
       
       <Routes>
@@ -31,6 +30,11 @@ const App = () => (
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       </div>
+
+      <div className='footer'>
+          <p className='footer-text'>Pet Heaven is a certified charity. (UEN Charity Registration No. T03SS6942E) </p>
+      </div>
+      
   </Router>
 );
 
