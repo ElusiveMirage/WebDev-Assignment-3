@@ -8,7 +8,7 @@ const Loader = () => {
     return (
        
        <div className='loader-container'>
-            <p className='loader-text'>Our pets are coming for you...</p>
+            <p className='loader-text'>Our pets are waiting for you...</p>
             <img src={DogSprite} className='dog-sprite' />
             <div className='dot-container'>
                 <div className='dots'></div>

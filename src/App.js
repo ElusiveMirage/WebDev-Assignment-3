@@ -9,13 +9,18 @@ import ShowPets from './components/ShowPets';
 import LoginForm from './components/LoginForm';
 import SignupForm from './components/SignupForm';
 import Profile from './components/Profile';
-import Contact from './components/Contact';
+import Contact from './components/Contact'
+import Donate from './components/Donate';
+
+import PawPrints from './images/paw_prints_heart.png'
 
 const App = () => (
 
   <Router>
 
       <Navbar className='menuitem' />
+
+      <img src={PawPrints} className='paw-prints' />
 
       <div className='container'>
       
@@ -27,6 +32,7 @@ const App = () => (
         <Route path="/Login"  element ={ <LoginForm />} />
         <Route path="/Signup"  element ={ <SignupForm />} />
         <Route path="/Profile"  element ={ <Profile />} />
+        <Route path="/Donate"  element ={ <Donate />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       </div>

@@ -34,7 +34,6 @@ const Contact = () => {
           console.log(data);      
 
         addDoc(collection(db, "Enquiries"), data);
-        toast.success('Enquiry Sent !');
         setFormSubmitted(true);
 
     };
@@ -43,9 +42,9 @@ const Contact = () => {
     <div>
         
         <h1>Contact Us</h1>
-
+        <hr />
         <div className="contact-page-info">
-            <hr />
+            
             <h2>Support Hours: Monday to Fridays (Excluding PH), 10AM to 6PM SGT</h2>
             <div className="contact-flex-container">
                 <div>General Enquiries

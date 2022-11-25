@@ -24,6 +24,7 @@ const NavBar = () => {
                 <NavLink to='/Pets'>Show Pets</NavLink>
                 <NavLink to='/About'>About</NavLink>
                 <NavLink to='/Contact'>Contact Us</NavLink>
+                <NavLink to='/Donate'>Donate</NavLink>
                 {authToken === null ? (<NavLink to='/Login'>Login</NavLink>):(<NavLink to='/Profile'>Profile</NavLink>)}
                 {authToken === null ? "" :(<Link onClick={handleLogout}>Logout</Link>)}
                 <hr></hr>

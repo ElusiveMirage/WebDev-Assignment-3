@@ -48,6 +48,8 @@ const Profile = () => {
     <div>
 
         <h1>My Profile</h1>
+        <br></br>
+        <hr></hr>
         <div className="profile-container">
           <p>Name : {name}</p>
           <p>Email : {email}</p>
