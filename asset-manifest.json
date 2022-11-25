@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/WebDev-Assignment-3/static/css/main.e270b45e.css",
-    "main.js": "/WebDev-Assignment-3/static/js/main.0b251e63.js",
+    "main.css": "/WebDev-Assignment-3/static/css/main.864c5e27.css",
+    "main.js": "/WebDev-Assignment-3/static/js/main.b6217ee9.js",
     "static/media/cat_waving.png": "/WebDev-Assignment-3/static/media/cat_waving.2890c8f929ee600f4550.png",
-    "static/media/cats_peeking.png": "/WebDev-Assignment-3/static/media/cats_peeking.12d72cc4dd03d1c92698.png",
     "static/media/connection.jpg": "/WebDev-Assignment-3/static/media/connection.b2ff8b29a1a693f6a426.jpg",
+    "static/media/cats_peeking.png": "/WebDev-Assignment-3/static/media/cats_peeking.92b0172100c11bda4d37.png",
+    "static/media/about-us-banner.jpg": "/WebDev-Assignment-3/static/media/about-us-banner.3dc69148ee5668704458.jpg",
+    "static/media/paw_prints_heart.png": "/WebDev-Assignment-3/static/media/paw_prints_heart.5aa84379cde17939ba54.png",
     "index.html": "/WebDev-Assignment-3/index.html",
-    "main.e270b45e.css.map": "/WebDev-Assignment-3/static/css/main.e270b45e.css.map",
-    "main.0b251e63.js.map": "/WebDev-Assignment-3/static/js/main.0b251e63.js.map"
+    "main.864c5e27.css.map": "/WebDev-Assignment-3/static/css/main.864c5e27.css.map",
+    "main.b6217ee9.js.map": "/WebDev-Assignment-3/static/js/main.b6217ee9.js.map"
   },
   "entrypoints": [
-    "static/css/main.e270b45e.css",
-    "static/js/main.0b251e63.js"
+    "static/css/main.864c5e27.css",
+    "static/js/main.b6217ee9.js"
   ]
 }
