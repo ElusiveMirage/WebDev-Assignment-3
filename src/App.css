@@ -177,15 +177,28 @@ body {
 .about-info-block {
   background-color: #ffffff;
   height: 50%;
-  width: 60%;
+  width: 50%;
   margin-top: 0;
-  left: 20%;
+  left: 25%;
   opacity: 0.75;
   position: absolute;
 }
 
 .about-info {
+  text-align: center;
+  font-family: "montserrat", sans-serif;
+  font-weight: normal;
+  color:  #6b8fd1;
+  font-size: 2.3rem;
+}
 
+.social-media-links {
+  display: block;
+  position: relative;
+  justify-content: center;
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 30%;
 }
 
 .paw-prints {
@@ -200,15 +213,70 @@ body {
   z-index: -3;
 }
 
+.donation-container {
+  position: relative;
+  background-color:#ffffff;
+  border: 1px;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 40%;
+  height: 50%;
+  justify-content: center;
+  z-index: 2;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 5%;
+  font-family: "montserrat", sans-serif;
+  animation: bottom-flyin;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  opacity: 0.85;
+}
+
+.donation-cc-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  height: 30%;
+  justify-content: center;
+  position: relative;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.icon-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 20%;
+  margin-top: -10%;
+  left: 60px;
+  top: 20px; 
+}
+
+.icon-container i {
+  font-size: 32px;
+}
+
+.icon-container i + i{
+  padding-left: 2px;
+}
+
 .fa {
-  padding: 20px;
-  font-size: 20px;
-  width: 15px;
-  height: 15px;
+  padding-top: 25px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  font-size: 30px;
+  width: 45px;
+  height: 45px;
   text-align: center;
   text-decoration: none;
   margin-top: 10px;
   border-radius: 50%;
+  margin-left: 40px;
 }
 
 .fa:hover {

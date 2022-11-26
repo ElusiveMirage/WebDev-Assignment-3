@@ -4,6 +4,8 @@ import { app } from '../firebase';
 import { db } from '../firebase';
 import { addDoc, doc, collection } from 'firebase/firestore';
 import CatPeek from '../images/cats_peeking.png'
+import Logo from '../images/logo.png'
+import PetHeaven from '../images/pet_heaven.png'
 
 const Home = () => {
 
