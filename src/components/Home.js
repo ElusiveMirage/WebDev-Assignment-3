@@ -6,6 +6,9 @@ import { addDoc, doc, collection } from 'firebase/firestore';
 import CatPeek from '../images/cats_peeking.png'
 import Logo from '../images/logo.png'
 import PetHeaven from '../images/pet_heaven.png'
+import PetHeavenLogo from '../images/logo.png'
+import PetAdopted from '../images/pet-adopted.jpg'
+import SadDog from '../images/sad-dog.png'
 
 const Home = () => {
 
@@ -100,24 +103,55 @@ const Home = () => {
   </div>
     : <div>
         <br />
-        <h1 className='home-title'>The Pet Heaven Society</h1>
+        <img src={PetHeavenLogo} className='pet-heaven-logo' />
+        <img src={PetHeaven} className='pet-heaven' />
         <div className='home-bg-block-1'>
-          <div className='home-info'></div>
+          <div className='home-info'>
+            <p>sdasdasad asdasdasdasda asdsaddads asodasdkaskdslagklagklasglas aog jasgaklgsalgkakl ga agj asjaklaskg 
+                fsoakfaskgaskg;lk asfoakglask as aklg akl gaklg kla gklakgkl kg kagklag aslg askg;laskg kg aboutaf
+                asklgasklgklasgkla lag kasklg akslg alg a;lgk a;lga;lgk;lagalg a;gk; saklfasmklfasklgklasgsklakf
+                askldasklgaklgkl a gakljgkl  faskgaskl k ak lg a asdadasdasdsdasdd af fasf asf asf asf asfasfasf
+                asfasg gagag gg  oasog koagk akg kapo ak poako gako kaoh kaokh h kaohk pakh akk kdosakdo as 
+            </p>
+            <br />
+            <div className='home-info-2'>
+                  <p>Want to support us in our endeavors ?</p>
+                  <button type="button" className="home-login-button" onClick={ ()=> navigate('/Login')}>Login</button>
+                  <p>or</p>
+                  <button type="button" className="home-signup-button" onClick={ ()=> navigate('/Signup')}>Sign Up</button>
+                  <p>to join us !</p>
+            </div>
+          </div>
+          <img src={PetAdopted} className='pet-adopted' />
         </div>
         <img src={CatPeek} className='cat-peek' />
         <div className='home-bg-block-2'>
+          <div className='adopt-pet-link'>
+                    <p>Want to adopt a pet from us ?</p>
+                    <button type="button" className="show-pets-button" onClick={ ()=> navigate('/Pets')}>Show Pets</button>
+              </div>
           <div className='adoption-steps-container'>
             <div className="adoption-step">
               <h4>Step 1</h4>
+              <p className='adoption-step-text'>Choose a pet from our list available for adoption</p>
+              <i class="fa fa-solid fa-list"></i>
             </div>
             <div className="adoption-step">
+              <h4>Step 2</h4>
+              <p className='adoption-step-text'>Fill in a form with your details for us to get in touch with you</p>
+              <i class="fa fa-solid fa-pen"></i>
             </div>
             <div className="adoption-step">
+              <h4>Step 3</h4>
+              <p className='adoption-step-text'>And come on down to our location for an interview !</p>
+              <i class="fa fa-solid fa-clipboard-question"></i>
             </div>
           </div>
         </div>
         <div className='home-bg-block-3'>
-            <button type='button' className='release-button' onClick={ ()=> openReleaseForm()}>Release</button>
+          <h5>Want to release your pet into our care ?</h5>
+          <img src={SadDog} className='sad-dog' />
+            <button type='button' className='release-button' onClick={ ()=> openReleaseForm()}>Apply For Release</button>
         </div>
         <div className='home-bg-block-4'></div>
     </div>}

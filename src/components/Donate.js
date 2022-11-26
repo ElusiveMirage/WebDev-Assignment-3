@@ -25,7 +25,7 @@ const About = () => {
     <div>
 
         <h1 className='about-title'> Donate </h1>
-        <img src={DogHeart} className='aboutus-banner' alt='About Us'/>
+        <img src={DogHeart} className='aboutus-banner' alt='Donate'/>
         <hr className='aboutus-header'></hr>
         <div className="donation-container">
             { !formSubmitted ? <h2>Want to support our cause ?</h2> : <h2>Thank you for donating !</h2>}

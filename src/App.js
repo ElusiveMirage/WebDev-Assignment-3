@@ -11,7 +11,6 @@ import SignupForm from './components/SignupForm';
 import Profile from './components/Profile';
 import Contact from './components/Contact'
 import Donate from './components/Donate';
-
 import PawPrints from './images/paw_prints_heart.png'
 
 const App = () => (
@@ -21,7 +20,6 @@ const App = () => (
       <Navbar className='menuitem' />
 
       <img src={PawPrints} className='paw-prints' />
-
       <div className='container'>
       
       <Routes>
@@ -36,7 +34,6 @@ const App = () => (
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       </div>
-
       <div className='footer'>
           <p className='footer-text'>Pet Heaven is a certified charity. (UEN Charity Registration No. T03SS6942E) </p>
       </div>
