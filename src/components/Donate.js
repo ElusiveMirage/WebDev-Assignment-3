@@ -18,7 +18,7 @@ const About = () => {
 
     const closeForm = () => {
         setFormSubmitted(false);
-        navigate('/Web-Dev-Assignment-3');
+        navigate('/');
     }
 
   return (

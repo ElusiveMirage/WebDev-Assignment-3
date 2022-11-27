@@ -30,7 +30,7 @@ const LoginForm = () => {
                 sessionStorage.setItem('Auth Token', response._tokenResponse.refreshToken)
                 console.log(response.user)
                 setTimeout(() => {
-                    navigate('/Web-Dev-Assignment-3')
+                    navigate('/')
                     console.log(response.user)
                   }, 2000);
               })

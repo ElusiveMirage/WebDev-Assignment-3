@@ -10,8 +10,7 @@ const NavBar = () => {
 
     const handleLogout = () => {
         sessionStorage.removeItem('Auth Token');
-        navigate('/Web-Dev-Assignment-3')
-        navigate(0)
+        navigate('/')
     }
 
     return (
