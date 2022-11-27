@@ -126,7 +126,8 @@ body {
 }
 
 .home-info p {
-  font-size: 26px;
+  font-size: 22px;
+  line-height: 1.5em;
 }
 
 .home-info-2 {
@@ -358,11 +359,14 @@ body {
 }
 
 .about-info {
+  display: inline-block;
   text-align: center;
   font-family: "montserrat", sans-serif;
   font-weight: normal;
   color:  #6b8fd1;
-  font-size: 2.3rem;
+  font-size: 2.0rem;
+  line-break: auto;
+  line-height: 1.5em;
 }
 
 .social-media-links {
@@ -370,7 +374,7 @@ body {
   position: relative;
   justify-content: center;
   width: 50%;
-  margin-top: 5%;
+  margin-top: 0%;
   margin-left: 30%;
 }
 

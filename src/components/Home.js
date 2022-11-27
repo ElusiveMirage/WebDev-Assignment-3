@@ -107,11 +107,14 @@ const Home = () => {
         <img src={PetHeaven} className='pet-heaven' />
         <div className='home-bg-block-1'>
           <div className='home-info'>
-            <p>sdasdasad asdasdasdasda asdsaddads asodasdkaskdslagklagklasglas aog jasgaklgsalgkakl ga agj asjaklaskg 
-                fsoakfaskgaskg;lk asfoakglask as aklg akl gaklg kla gklakgkl kg kagklag aslg askg;laskg kg aboutaf
-                asklgasklgklasgkla lag kasklg akslg alg a;lgk a;lga;lgk;lagalg a;gk; saklfasmklfasklgklasgsklakf
-                askldasklgaklgkl a gakljgkl  faskgaskl k ak lg a asdadasdasdsdasdd af fasf asf asf asf asfasfasf
-                asfasg gagag gg  oasog koagk akg kapo ak poako gako kaoh kaokh h kaohk pakh akk kdosakdo as 
+            <p>
+              Every year, the number of cases of pets being abandoned continue to rise. The forlorn and miserable states they
+              are left in have resolved us to make it our mission to save as many as we can and give them a safe haven to
+              be taken in by a new, caring owners. Their suffering is often overlooked by many, but we at Pet Heaven refuse to turn
+              a blind eye, persisting in changing the lives of as many of them as we can for the better.
+              <br />
+              <br />
+              You can help our cause by adopting one of our animals our volunteering with us today.
             </p>
             <br />
             <div className='home-info-2'>

@@ -10,25 +10,22 @@ const About = () => {
         <hr className='aboutus-header'></hr>
         <div className='about-info-block'>
           <p className='about-info'>
-              adsasssssssssssssssssssssssssssssssssssss
-            <br /> 
-              sada
-            <br />
-              sadagg
+              Pet Heaven is a registered charity and home to over 300 dogs and cats. The animals under our care
+              range from those abandoned by their owners, strays, abused and traumatised. 
               <br />
-              sadagg
               <br />
-              sadagg
+              Our mission is to rescue as
+              many as we can and bring them into the care of a new, loving family.
               <br />
-              sadagg
               <br />
-              sadagg
+              We have over 80 employed staff and volunteers who help to keep our cause going, carrying out tasks such
+              as feeding, treating them, bringing them for veterinary checks, making sure to keep them healthy and happy.
+              In order to keep our operatings going, we depend greatly on the support of the public. Some ways the public
+              can assist us through monetary and food donations, and helping to foster the animals in our care.
               <br />
-              sadagg
               <br />
-              sadagg
-              <br />
-              sadagg
+              If you are interested in seeing more of the work we do, follow us on our social media below!
+
           </p>
           <div className="social-media-links">
                 <a href="#" className="fa fa-facebook"></a>
