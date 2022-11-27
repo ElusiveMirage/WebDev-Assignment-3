@@ -47,7 +47,7 @@ const SignupForm = () => {
             }  
             toast.success('Registration Success!')
                 setTimeout(() => {
-                    navigate('/')
+                    navigate('/Web-Dev-Assignment-3')
                     navigate(0) 
                   }, 2000);
         })

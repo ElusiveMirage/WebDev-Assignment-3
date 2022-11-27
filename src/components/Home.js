@@ -30,7 +30,7 @@ const Home = () => {
   const closeReleaseForm = () => {
       setFormSubmitted(false);
       setOpenForm(false);
-      navigate('/');
+      navigate('/Web-Dev-Assignment-3');
   }
 
   const handleFormSubmit = (event) => {
