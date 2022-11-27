@@ -46,12 +46,7 @@ const About = () => {
                 <label>Credit Card Number</label>
                 <input type="text" id="ccnum" name="cardnumber" minlength="16" maxlength="16" placeholder="1111-2222-3333-4444" required /> 
                 </div>
-
-                <div className="input-group">
-                <label>Full Name</label>
-                <input type="text" name="fullname" id="fullname" required /> 
-                </div>
-
+                
                 <div className="donation-cc-container">
                     <div className="input-group">
                       <label for="expmonth">Exp Month</label>
