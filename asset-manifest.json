@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WebDev-Assignment-3/static/css/main.e50871f4.css",
-    "main.js": "/WebDev-Assignment-3/static/js/main.990576bc.js",
+    "main.js": "/WebDev-Assignment-3/static/js/main.c8bd2641.js",
     "static/media/cat_waving.png": "/WebDev-Assignment-3/static/media/cat_waving.2890c8f929ee600f4550.png",
     "static/media/sad-dog.png": "/WebDev-Assignment-3/static/media/sad-dog.b55eec2c231eae712201.png",
     "static/media/logo.png": "/WebDev-Assignment-3/static/media/logo.fe20de0f06ca475d8a92.png",
@@ -14,10 +14,10 @@
     "static/media/dog-heart.jpg": "/WebDev-Assignment-3/static/media/dog-heart.2eee4b20fb911297d5ff.jpg",
     "index.html": "/WebDev-Assignment-3/index.html",
     "main.e50871f4.css.map": "/WebDev-Assignment-3/static/css/main.e50871f4.css.map",
-    "main.990576bc.js.map": "/WebDev-Assignment-3/static/js/main.990576bc.js.map"
+    "main.c8bd2641.js.map": "/WebDev-Assignment-3/static/js/main.c8bd2641.js.map"
   },
   "entrypoints": [
     "static/css/main.e50871f4.css",
-    "static/js/main.990576bc.js"
+    "static/js/main.c8bd2641.js"
   ]
 }
